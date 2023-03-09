@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.36.0",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
+    "eslint": "^8.35.0",
+    "eslint-plugin-tailwindcss": "^3.10.1",
+    "nuxt": "^3.2.3",
+    "nuxt-headlessui": "^1.1.1",
+    "nuxt-icon": "^0.3.2"
+  }
+}
